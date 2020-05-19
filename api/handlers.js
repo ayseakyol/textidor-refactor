@@ -9,7 +9,7 @@ const readFile = util.promisify(fs.readFile);
 const deleteFile = util.promisify(fs.unlink);
 
 // define FILES_DIR
-const FILES_DIR = path.join(__dirname, "../files-dev");
+const FILES_DIR = path.join(__dirname, '../', config.FILES_DIR );
 
 // declare the handlers
 
